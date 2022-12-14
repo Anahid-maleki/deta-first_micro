@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET'])
 def Hello_World():
-    return"HELLO WORLD git ..."
+    return"HELLO WORLD git action ..."
 
 @app.route('/<user>', methods=["GET"])
 def get_username(user):
